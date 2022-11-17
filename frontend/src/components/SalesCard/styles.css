@@ -60,38 +60,38 @@
 }
 
 .dsmeta-red-btn-container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .show576 {
-    display: none;
+  display: none;
 }
 
 .show992 {
-    display: none;
+  display: none;
 }
 
 @media (min-width: 576px) {
-    .show576 {
-        display: table-cell;
-    }
+  .show576 {
+    display: table-cell;
+  }
 
-    .dsmeta-card {
-        padding: 35px;
-    }
+  .dsmeta-card {
+    padding: 35px;
+  }
 
-    .dsmeta-sales-table tbody tr {
-        height: 55px;
-    }
+  .dsmeta-sales-table tbody tr {
+    height: 55px;
+  }
 
-    .dsmeta-sales-table tbody {
-        font-size: 18px;
-    }
+  .dsmeta-sales-table tbody {
+    font-size: 18px;
+  }
 }
 
 @media (min-width: 992px) {
-    .show992 {
-        display: table-cell;
-    }
+  .show992 {
+    display: table-cell;
+  }
 }
